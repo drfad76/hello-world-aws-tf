@@ -101,3 +101,6 @@ Webserver is running.
 Webserver is running.
 Webserver is running.
 ```
+#### Side note 
+If you run monitoring script before AMI is fully provisioned you may reseive and error "Webserver is not available". Please give some time to AWS to provision a new server, before running the monitoring script.
+
